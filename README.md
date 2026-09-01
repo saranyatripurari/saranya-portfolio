@@ -11,7 +11,7 @@ This portfolio showcases my **skills, projects, internships, certifications, cod
 The portfolio is deployed using **Vercel**.
 
 **Live Portfolio:**
-
+https://saranya-tripurari-portfolio.vercel.app/
 
 ## 📬 Contact
 
