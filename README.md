@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Saranya Tripurari — Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website.
 
-This contains everything you need to run your app locally.
+I am **Saranya Tripurari**, a B.Tech student specializing in **Artificial Intelligence & Machine Learning**, with an interest in software development, web technologies, data structures, and machine learning.
 
-View your app in AI Studio: https://ai.studio/apps/2050c9eb-12ea-467e-82a0-b1809100311c
+This portfolio showcases my **skills, projects, internships, certifications, coding profiles, and contact information**.
 
-## Run Locally
+## 🌐 Portfolio
 
-**Prerequisites:**  Node.js
+The portfolio is deployed using **Vercel**.
+
+**Live Portfolio:**
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📬 Contact
+
+If you'd like to connect, collaborate, or discuss opportunities, feel free to reach out through my portfolio or LinkedIn.
+Thank you for visiting my portfolio repository.
