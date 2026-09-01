@@ -68,7 +68,7 @@ export const EDUCATION_DATA: Education[] = [
     degree: "B.Tech– Artificial Intelligence & Machine Learning",
     institution: "KIET Engineering College, Andhra Pradesh",
     year: "2023–2027",
-    score: "CGPA: 8.6",
+    score: "CGPA: 8.7",
   },
   {
     degree: "Intermediate (MPC)",
