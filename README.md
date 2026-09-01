@@ -16,4 +16,5 @@ The portfolio is deployed using **Vercel**.
 ## 📬 Contact
 
 If you'd like to connect, collaborate, or discuss opportunities, feel free to reach out through my portfolio or LinkedIn.
+
 Thank you for visiting my portfolio repository.
