@@ -1,3 +1,8 @@
+import profileAvatar from '../assets/images/profile_avatar_saranya_1788184438728.jpg';
+import interviewProjectImage from '../assets/images/interview_general_pic_1788183898678.jpg';
+import hrAnalyticsImage from '../assets/images/hr_analytics_general_1788183916620.jpg';
+import crowdDensityImage from '../assets/images/crowd_surveillance_gen_1788183939009.jpg';
+
 export interface Project {
   id: string;
   title: string;
@@ -48,7 +53,7 @@ export const PERSONAL_INFO = {
   bio: "A passionate B.Tech Artificial Intelligence & Machine Learning student focused on software development and Python programming. I enjoy building practical applications, solving problems with data structures and algorithms, and developing reliable software solutions.",
   aboutParagraph1: "I am a passionate Software Developer with a focus on building user-friendly and responsive web applications. Currently pursuing B.Tech in Artificial Intelligence and Machine Learning at Kakinada Institute of Engineering and Technology (2023–2027).",
   aboutParagraph2: "I believe in writing clean, maintainable code and creating solutions that make a real impact. My journey in software engineering is driven by continuous learning and a commitment to excellence.",
-  avatarUrl: "/src/assets/images/profile_avatar_saranya_1788184438728.jpg",
+  avatarUrl: profileAvatar,
   email: "saranyatripurari@gmail.com",
   phone: "8374418503",
   location: "Amalapuram, Andhra Pradesh",
@@ -187,7 +192,7 @@ export const PROJECTS_DATA: Project[] = [
     ],
     techStack: ["Python", "FastAPI", "Google Gemini AI", "HTML5", "CSS3", "JavaScript", "Jinja2"],
     githubUrl: "https://github.com/saranyatripurari/AI_Interview_Assistant",
-    imageUrl: "/src/assets/images/interview_general_pic_1788183898678.jpg",
+    imageUrl: interviewProjectImage,
   },
   {
     id: "employee-promotion-prediction",
@@ -200,7 +205,7 @@ export const PROJECTS_DATA: Project[] = [
     ],
     techStack: ["Python", "Flask", "Machine Learning", "Scikit-Learn", "HTML5", "CSS3", "JavaScript"],
     githubUrl: "https://github.com/saranyatripurari/employee-promotion-prediction",
-    imageUrl: "/src/assets/images/hr_analytics_general_1788183916620.jpg",
+    imageUrl: hrAnalyticsImage,
   },
   {
     id: "visual-crowd-density",
@@ -213,7 +218,7 @@ export const PROJECTS_DATA: Project[] = [
     ],
     techStack: ["Python", "Computer Vision", "CNN", "MCNN", "TensorFlow", "PyTorch"],
     githubUrl: "https://github.com/saranyatripurari/visual-crowd-density-and-flow-analysis",
-    imageUrl: "/src/assets/images/crowd_surveillance_gen_1788183939009.jpg",
+    imageUrl: crowdDensityImage,
   },
 ];
 
