@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', 'Lora', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar matching dark navy aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2dd4bf;
+}
+
+/* Glow effects */
+.glow-teal {
+  box-shadow: 0 0 25px -5px rgba(45, 212, 191, 0.25);
+}
+
+.glow-teal-sm {
+  box-shadow: 0 0 15px -3px rgba(45, 212, 191, 0.2);
+}
+
+.card-hover-border {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover-border:hover {
+  border-color: rgba(45, 212, 191, 0.45);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px -5px rgba(45, 212, 191, 0.15);
+  transform: translateY(-3px);
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  #resume-modal-overlay {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+    backdrop-filter: none !important;
+  }
+
+  #resume-modal-content {
+    border: none !important;
+    box-shadow: none !important;
+    max-height: none !important;
+    width: 100% !important;
+    background: transparent !important;
+  }
+
+  #resume-modal-content > div:first-child {
+    display: none !important;
+  }
+
+  #resume-modal-content > div:nth-child(2) {
+    padding: 0 !important;
+    background: transparent !important;
+  }
+
+  #printable-resume-sheet {
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  header, nav, main, footer {
+    display: none !important;
+  }
+}
+
